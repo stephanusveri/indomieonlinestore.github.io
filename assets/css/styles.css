@@ -101,7 +101,7 @@ img {
     text-align: center;
     padding-top: 1.5rem;
     background-color: var(--first-color-lighter);
-    border-radius: 1rem;
+    border-radius: 0;
     transition: .4s;
   }
 }
@@ -181,9 +181,18 @@ img {
 
 }
 
+.islands__title3 {
+  font-size: var(--biggest-font-size);
+  margin-top: -55px;
+  color: white;
+}
+
+
 .islands__description {
+  font-size: 18px;
   margin-bottom: 1rem;
   color: ghostwhite;
+  font-family: lato, sans-serif;
 }
 
 .islands__button {
@@ -265,11 +274,17 @@ img {
     margin-bottom: -25px;
   }
 
-.islands__title2 {
+  .islands__title2 {
     font-size: 3rem;
     margin-top: -85px;
     padding-top: 3rem;
     color: white;
+  }
+
+  .islands__title3 {
+    font-size: 3rem;
+    color: white;
+    margin-top: -25px;
   }
 
 }
