@@ -138,32 +138,9 @@
     margin-bottom: 50px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
 /*---------------Responsive untuk Hp*---------------*/
-
-/*Hp Layar Medium*/
-
-@media only screen and (max-width: 375px){
-  .main-content-wrapper .amado_product_area .single-product-wrapper .ratings-cart .ratings i{
-    font-size: 3px;
-  }
-
-  .main-content-wrapper .cart-table-area table tbody{
-    width: 300px;
-  }
-
-  .main-content-wrapper .cart-table-area table tbody tr .price span{
-    font-size: 12px;
-  }
-
-  .main-content-wrapper .cart-table-area table tbody tr td .qty-btn p{
-    font-size: 12px;
-  }
-
-
-
-} 
-/*Hp Layar Medium*/
 
 
 /*Hp Layar Besar*/
@@ -360,12 +337,50 @@
 
   /*-----Cart Page*-----*/  
 
-
-
-
-  
 }
 /*Hp Layar Besar*/
+
+/*Hp Layar Medium*/
+
+@media only screen and (max-width: 375px){
+
+  .main-content-wrapper .amado_product_area .container-fluid h6{
+    font-size: 12px;
+  }
+
+  .main-content-wrapper .amado_product_area .single-product-wrapper .product-img .hover-img{
+    width: 180px;
+    height: 120px;
+  }
+
+  .footer_area .single_widget_area .footer-logo{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+  }
+
+  .main-content-wrapper .amado_product_area .single-product-wrapper .ratings-cart .ratings i{
+    font-size: 8px;
+  }
+
+   .main-content-wrapper .single-product-area .single_product_desc .cart .amado-btn{
+    margin-left: 35px;
+  }
+
+  .main-content-wrapper .cart-table-area table tbody{
+    width: 300px;
+  }
+
+  .main-content-wrapper .cart-table-area table tbody tr .price span{
+    font-size: 12px;
+  }
+
+  .main-content-wrapper .cart-table-area table tbody tr td .qty-btn p{
+    font-size: 12px;
+  }
+}
+
+/*Hp Layar Medium*/
 
 
 /*---------------Responsive untuk Hp*---------------*/ 
