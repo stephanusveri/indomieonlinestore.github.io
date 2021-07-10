@@ -362,3 +362,11 @@ img {
     height: 640px;
   }
 }
+
+@media screen and (max-width: 375px){
+  .gallery-thumbs .swiper-wrapper img {
+    width: 30px;
+    height: 30px;
+  }
+
+}

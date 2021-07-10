@@ -369,11 +369,16 @@
 
   .main-content-wrapper .cart-table-area table tbody{
     width: 300px;
+    overflow-y: scroll;
   }
 
   .main-content-wrapper .cart-table-area table tbody tr .price span{
     font-size: 12px;
   }
+
+   .main-content-wrapper .cart-table-area table tbody tr td .qty-btn{
+    width: 70px;
+   }
 
   .main-content-wrapper .cart-table-area table tbody tr td .qty-btn p{
     font-size: 12px;
