@@ -1108,9 +1108,9 @@ img {
       display: block; }
       .single-product-wrapper .product-description .product-meta-data a h6 {
         margin-bottom: 0; }
-    .single-product-wrapper .product-description .ratings-cart .ratings i {
+    .single-product-wrapper .product-description .ratings .ratings i {
       font-size: 10px;
-      color: #fbb710; }
+      color: yellow; }
     .single-product-wrapper .product-description .ratings-cart .cart {
       display: block; }
   .single-product-wrapper:hover .product-img .hover-img {
