@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fraunces:ital,wght@0,500;0,600;0,700;1,600&display=swap');
+
+@font-face {
+	font-family: "FredokaOne";
+	src:  url("fonts/FredokaOne-Regular.ttf");
+}
+
+@font-face{
+	font-family: "THICCCBOI";
+	src:  url("fonts/THICCCBOI-Regular.ttf");
+}
+
+*{
+	font-family: "FredokaOne";
+	background-color: #efd780 ;
+}
+
+p,h1,h2,h3,h4,h5{
+	color: #db6159;
+}
+
+body{
+	margin-top: 150px;
+	color: royalblue;
+}
+
+.content-text h2{
+	display: flex;
+	justify-content: center;
+}
+
+.content-img img{
+	width: 400px;
+	height: 250px;
+    margin-left: 27rem; 
+}
+
+.greeting-text h1{
+	display: flex;
+	justify-content: center;
+}
+
+.greeting-text p{
+	display: flex;
+	justify-content: center;
+}
+
+.button-home a{
+	margin-left: 33rem;
+}
+
+.button-home .btn-back{
+	font-family: "THICCCBOI";
+	height: 45px;
+	color: white;
+	border: none;
+	border-radius: 0;
+	padding: 0 5px;
+	font-size: 15px;
+	background-color: #787d69;
+	font-weight: 700; 
+	cursor: pointer;
+}

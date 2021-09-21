@@ -11,9 +11,13 @@
     /* ---------------------------------------
     ##### - PLACE YOUR CUSTOM CSS HERE - #####
     --------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Fraunces:ital,wght@0,500;0,600;0,700;1,600&display=swap');
 
+*{
+  font-family: "DM Sans" , sans-serif;;
+  font-weight: 700;
+}
     
-
 .main-content-wrapper .header-area {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -27,14 +31,7 @@
     background-color: yellow;
     padding: 60px 75px; 
 }
-.products-catagories-area{
-    /*background-color: lightblue;*/
-}
-
-.amado-pro-catagory {
-    /*background-color: blue;*/
-}
-    .single-products-catagory {
+  .single-products-catagory {
   position: relative;
   z-index: 1;
   width: 33.33333%;
@@ -115,7 +112,7 @@
   .single-products-catagory:focus .hover-content h4 {
     color: #fff; }
 
-
+/*---------------CSS MODIFICATION-------------------------------*/
 .main-content-wrapper .amado_product_area{
     position: relative;
     margin-left: 80px;
@@ -127,9 +124,14 @@
     max-width: calc(95% - 550px); 
 }
 
+.main-content-wrapper .amado_product_area .container-fluid .row{
+  width: 800px;
+}
+
 .single-product-wrapper .hover-img{
-    width: 100px;
-    height: 300px;
+    width: 150px;
+    height: 350px;
+    margin-top:px;
 }
 
  .main-content-wrapper .amado_product_area .container-fluid h6{
@@ -138,7 +140,68 @@
     margin-bottom: 50px;
 }
 
+.ratings-cart .ratings{
+  width: 120px;
+}
+.ratings-cart .ratings i {
+    font-size: 18px;
+    color: yellow; 
+}
 
+.product-description .product-meta-data h5{
+  font-size: 15px;
+}
+
+.form-title h5{
+  display: flex;
+  justify-content: center;
+  margin-bottom: -10px;
+  margin-top: 25px;  
+  margin-left: -25px;
+}
+
+.cart-button .form-btn{
+  background-color: #32cd32;
+  color: white;
+  width: 320px;
+  font-family:  "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+.cart-button .form-btn:hover{
+  background-color: black;
+}
+
+.cart-button img{
+  width: 40px;
+  height: 45px;
+  margin-left: -10px;
+}
+
+.cart-button-form .form-btn{
+  background-color: orangered;
+  color: white;
+  width: 320px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+.cart-button-form .form-btn:hover{
+  background-color: black;
+}
+
+.cart-button-form img{
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+}
+
+/*Checkout*/
+
+.payment-method .custom-control-label img{
+  width: 136px;
+  height: 25px;
+}
 
 /*---------------Responsive untuk Hp*---------------*/
 
@@ -339,9 +402,9 @@
   /*-----Cart Page*-----*/  
 
 }
-/*Hp Layar Besar*/
+/*-----------------------Hp Layar Besar*-------------------------------------------/
 
-/*Hp Layar Medium*/
+/*-----------------------Hp Layar Medium*-----------------------------------------*/
 
 @media only screen and (max-width: 375px){
   .main-content-wrapper .header-area {
