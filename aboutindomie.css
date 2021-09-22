@@ -310,5 +310,13 @@ footer{
         background-position: center;
         background-position-y: 3rem;
     }
+
+    @media screen and (max-width: 350px) {
+
+        footer{
+            background-position-y: 3.5rem;
+            background-position-x: 7.5rem;
+        }
+    }
     
 }
